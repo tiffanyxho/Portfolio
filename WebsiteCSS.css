@@ -37,3 +37,70 @@ div.projects {
 hr {
     width: 100%;
 }
+
+div.containers{}
+
+button {
+    background-color: #ccccff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #a6a6a6;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #808080;
+    transform: translateY(4px);
+}
+
+#projs {
+    width: 140px;
+    height: 135px;
+    background: url("https://drive.google.com/uc?id=0B8T3nig9bXC9Q0VDY253bDFNSnM") no-repeat;
+    background-size: 140px 135px;
+    background-color: #99bbff;
+}
+
+#me {
+    width: 150px;
+    height: 155px;
+    background: url("https://drive.google.com/uc?id=1GH73QkfW27RH3LJuCicsL9ak5lwuO7ohbg") no-repeat;
+    background-size: 150px 155px;
+}
+
+#contact {
+    width: 130px;
+    height: 210px;
+    background: url("https://drive.google.com/uc?id=0B8T3nig9bXC9SWhsOTE4SGQ4c0E");
+    background-size: 130px 210px;
+}
+
+#interest {
+    width: 170px;
+    height: 100px;
+    background: url("https://drive.google.com/uc?id=0B8T3nig9bXC9b1J5Vi1aaTFtcUk");
+    background-size: 170px 100px;
+}
