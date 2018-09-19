@@ -1,21 +1,43 @@
+/* TODOS:
+ * Figure out how to make "TH" letters fit well into navbar
+ * Make a toggle for about me information
+ * Make navbar buttons fill in navbar color to white
+ * Add in projects
+ * Figure out why Contact Me is not centered
+ * Figure out better color scheme / website theme
+ * Add a picture of me on the side of the intro / can add a B-) emoji
+ * Maybe use b/t gif?
+*/
+
+/* Body's font-family change */
 body {
     font-family: 'Bitter', serif !important;
     background-color: #ccddff;
+    width: 100%;
 }
 
+/* Grey border under top navbar */
 .navbar {
     border-bottom: 2px solid gray !important;
 }
 
-.navbar-color {
-    background-color: lightgoldenrodyellow;
+/* Blackish bg color */
+.off-black-bg {
+    background-color: #222;
 }
 
+/* Make text color white */
+.white-text {
+    color: white;
+}
+
+/*  */
 * {
     box-sizing: border-box;
-} 
+}
 
-.nav button {
+/* Navigation bar buttons */
+.navbar-nav button {
     background-color: white; /* #222;*/
     border: none;
     color: gray;
@@ -33,23 +55,23 @@ body {
     font-size: 24px;
 }
 
+/* center h1 tags */
 h1 {
     text-align: center;
 }
 
+/* Make sure text isn't covered at top */
 .first-slide {
-    margin-top: 50px;
+    margin-top: 100px;
+}
+
+/* */
+.card-body {
+    background-color: #222;
     color: white;
 }
 
-.third-slide {
-    background-color: black;
-    color: white;
-}
-
-.fourth-slide {
-    background-color: white !important;
-}
+/* Contacts container CSS begins */
 
 /* Set GitHub image size */
 #github-img{
@@ -70,6 +92,7 @@ h1 {
     height: 90px;
 }
 
+/* Mail */
 address{
     display: inline-block;
 }
@@ -77,11 +100,18 @@ address{
 /* Align contact info. images at bottom to center */
 .img-container{
     width: 60vw;
-    margin: 0px auto;
+    margin: 20px auto;
     text-align: center;
 }
 
 /* Contact Me text displays in line with GitHub, LinkedIn, & Mail images */
 .img-container p{
     display: inline-block;
+}
+
+/* Makes horizontal scroll bar go away */
+.row{
+    /*border: 2px red solid;*/
+    max-width: 100%;
+    overflow-x: hidden;
 }
